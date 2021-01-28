@@ -176,16 +176,15 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?24qqgd');
-  src:  url('../fonts/icomoon.eot?24qqgd#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?24qqgd') format('truetype'),
-    url('../fonts/icomoon.woff?24qqgd') format('woff'),
-    url('../fonts/icomoon.svg?24qqgd#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?6bc199');
+  src:  url('../fonts/icomoon.eot?6bc199#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6bc199') format('truetype'),
+    url('../fonts/icomoon.woff?6bc199') format('woff'),
+    url('../fonts/icomoon.svg?6bc199#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -202,9 +201,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-telegram-plane-brands:before {
+.icon-facebook-f-brands:before {
   content: "\e900";
 }
 .icon-instagram-brands:before {
   content: "\e901";
 }
+

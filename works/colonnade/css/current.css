@@ -13,11 +13,9 @@
 }
 
 .current_title {
-	background: #ff6b00;
-	font-size: 26px;
-	color: #fff;
-	margin-bottom: 30px;
-	padding: 30px 0;
+	font-family: HelveticaRegular;
+	font-size: 30px;
+	margin-bottom: 40px;
 }
 
 .current_desc {
