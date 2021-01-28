@@ -1,0 +1,32 @@
+/* FOOTER */
+
+.footer {
+	padding-bottom: 70px;
+}
+
+.footer_main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+}
+
+.social_item:nth-child(1) {
+	margin-right: 10px;
+}
+
+.social_link {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.social_link:hover {
+	color: inherit;
+}
