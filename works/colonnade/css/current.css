@@ -14,7 +14,7 @@
 
 .current_title {
 	font-family: HelveticaRegular;
-	font-size: 30px;
+	font-size: 33px;
 	margin-bottom: 40px;
 }
 
@@ -61,7 +61,6 @@
 	align-items: center;
 	justify-content: center;
 	z-index: 10;
-	margin-bottom: 80px;
 }
 
 .slider {
@@ -136,8 +135,8 @@
 	align-items: center;
 	font-family: HelveticaRegular;
 	font-size: 15px;
+	margin-top: 80px;
 	color: #9e9c9c;
-
 }
 
 .back, .next, .prev {
@@ -160,3 +159,6 @@
 	margin: 0 5px;
 }
 
+.section_works {
+	margin-top: 100px;
+}

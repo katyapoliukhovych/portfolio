@@ -11,7 +11,7 @@ body {
 	font-size: 15px;
 }
 
-img {
+img, video, iframe {
 	display: block;
 }
 

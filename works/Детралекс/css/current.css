@@ -1,0 +1,62 @@
+.section_current {
+	font-family: HelveticaLight;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	font-size: 22px;
+	color: #000;
+	line-height: 1.25;
+}
+
+.current_info {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.current_title {
+	font-family: HelveticaRegular;
+	font-size: 33px;
+	margin-bottom: 40px;
+}
+
+.current_desc {
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.video {
+	margin: 0 auto;
+}
+
+.current_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: HelveticaRegular;
+	font-size: 15px;
+	margin-top: 80px;
+	color: #9e9c9c;
+}
+
+.back, .next, .prev {
+	position: relative;
+	text-decoration: none;
+	color: #9e9c9c;
+	font-size: 15px;
+}
+
+.back:hover, .next:hover, .prev:hover {
+	color: #000;
+}
+
+.current_page {
+	display: flex;
+	align-items: center;
+}
+
+.slash {
+	margin: 0 5px;
+}
+
+.section_works {
+	margin-top: 100px;
+}
