@@ -19,7 +19,7 @@
 
 /* WORKS */
 .section_works {
-	margin-top: 120px;
+	margin-top: 80px;
 	margin-bottom: 50px;
 }
 
@@ -34,6 +34,16 @@
 .work {
 	position: relative;
 	margin-bottom: 50px;
+}
+
+.work_img {
+	max-height: 300px;
+	width: auto;
+}
+
+.last_img {
+	max-width: 100%;
+	height: auto;
 }
 
 .work_link::after {
@@ -51,6 +61,7 @@
 }
 
 .work_link::before {
+	text-align: center;
 	font-family: HelveticaLight;
 	z-index: 3;
 	position: absolute;
@@ -61,16 +72,25 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	opacity: 0;
 	letter-spacing: 3px;
-	text-shadow: 0px 0px 10px #000;
+	text-shadow: 0px 0px 10px #fff;
 	transition: opacity .3s linear;
+}
+
+.work:nth-child(6) .work_link::before{
+	white-space: pre;
+	content: attr(data-text) "\0a\0a" attr(data-add-text1) "\0a" attr(data-add-text2);
 }
 
 .work_link:hover::after {
 	opacity: 0.6;
+}
+
+.work:last-child .work_link:hover::after {
+	opacity: 0.8;
 }
 
 .work_link:hover::before {

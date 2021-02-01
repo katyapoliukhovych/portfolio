@@ -27,8 +27,16 @@ img, video, iframe {
 	align-items: center;
 }
 
-.logo_img {
-	border-radius: 50%;
+.logo {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 23px;
+	color: #000;
+	transition: text-shadow .3s linear;
+}
+
+.logo:hover {
+	text-shadow: -1px 1px 5px #9e9c9c;
 }
 
 .nav_list {

@@ -4,7 +4,6 @@ var linkTrans = {
 	link_trans_class: 'link_trans',
 
 	start: function() {
-		console.log(this.nav_links);
 		for (var i = 0; i < this.nav_links.length; i++) {
 			this.nav_links[i].classList.add(this.link_trans_class);
 		};
