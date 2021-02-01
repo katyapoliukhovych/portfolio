@@ -2,33 +2,25 @@
 	font-family: Raleway;
 	margin-top: 80px;
 	margin-bottom: 100px;
-	font-size: 22px;
+	font-size: 20px;
 	color: #000;
 	line-height: 1.25;
 }
 
 .current_info {
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 
 .current_title {
 	font-weight: 700;
-	font-size: 33px;
+	font-size: 30px;
 	margin-bottom: 40px;
 }
 
 .current_desc {
-	font-size: 25px;
 	text-align: center;
 	padding: 0 35px;
-}
-
-.current_actions {
-	font-size: 23px;
-	padding: 0 50px;
-	text-align: center;
-	margin-bottom: 50px;
 }
 
 .images {
@@ -44,7 +36,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	transition: .3s linear;
 }
 

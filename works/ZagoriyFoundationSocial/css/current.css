@@ -2,7 +2,7 @@
 	font-family: Raleway;
 	margin-top: 80px;
 	margin-bottom: 100px;
-	font-size: 22px;
+	font-size: 20px;
 	color: #000;
 	line-height: 1.25;
 }
@@ -14,16 +14,15 @@
 
 .current_title {
 	font-weight: 700;
-	font-size: 33px;
-	margin-bottom: 50px;
+	font-size: 30px;
+	margin-bottom: 40px;
 }
 
 .current_caption {
-	font-size: 28px;
+	font-size: 26px;
 }
 
 .current_desc {
-	font-size: 25px;
 	padding: 0 70px;
 	margin-bottom: 30px;
 }
